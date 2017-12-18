@@ -121,7 +121,7 @@ gulp.task('dev', ['browserSync', 'sass', 'minify-css', 'minify-js'], function() 
 gulp.task('deploy', function() {
 
     // Figure out which bucket we are deploying to
-    var bucket = 'kmklapak.io';
+    var bucket = 'kmklapak.me';
 
     // Create our publisher
     let publisher = awspublish.create({
